@@ -23,7 +23,7 @@ const LoginPopup = ({ setShowlogin }) => {
 
     const onLoginSubmit = async(e)=>{
         e.preventDefault();
-        let newurl = "http://localhost:4000/";
+        let newurl = "https://fooddelivery-server-3.onrender.com";
         if(currentstate==="Login"){
             newurl += "api/user/login"
         }else{
